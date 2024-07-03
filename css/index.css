@@ -98,7 +98,16 @@ ul {
     }
 }
 /* global rules */
-
+/* scroller */
+.scroller {
+    background-color: var(--main-color);
+    position: fixed;
+    height: 5px;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
 /* start header */
 .header {
     box-shadow: 0 0 10px #ddd;
